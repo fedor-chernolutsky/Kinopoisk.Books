@@ -2,9 +2,39 @@
 -----------------
 
 ### Инструкции для разработчиков
-:smiley::smiley::smiley:
 
-1) В папке `templates` каждый из файлов начинается с одного из трёх слов: <br>
+* :cookie: Запуск платформы :cookie:
+    ```
+    cd kpb
+    set FLASK_APP=kpb
+    set FLASK_ENV=development
+    :: pip install -e .
+    flask run
+    ```
+  
+* :honey_pot: Добавить объект в базу данных :honey_pot:
+    ```
+    db.session.add(...)
+    db.session.commit()
+    ```
+
+* :cactus: Миграции базы данных :cactus:
+    ```
+    flask db migrate
+    flask db upgrade
+    ```
+  
+* :carrot: В папке `templates` каждый из файлов начинается с одного из трёх слов: :carrot: <br>
     base - это шаблоны <br>
     hunk - это отдельные ломти (куски) html кода <br>
     page - это готовые страницы, созданные на основе *base* и использующие отдельные *hunk* <br>
+
+* :cow2: Мы используем `MySql Community Edition 8.0.28` :cow2:
+    * https://www.mysql.com/products/community/
+    * https://dev.mysql.com/downloads/installer/
+
+* :milky_way: В колонки `жанр` и `страна` модели книги записывать значения при помощи enum :milky_way:
+
+* :cheese: Ссылки :cheese:
+    * https://alembic.sqlalchemy.org/en/latest/autogenerate.html#autogenerate-detects
+    * https://alembic.sqlalchemy.org/en/latest/tutorial.html#create-a-migration-script
