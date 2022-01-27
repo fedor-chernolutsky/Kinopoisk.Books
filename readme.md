@@ -32,8 +32,6 @@
     * https://www.mysql.com/products/community/
     * https://dev.mysql.com/downloads/installer/
 
-* :milky_way: В колонки `жанр` и `страна` модели книги записывать значения при помощи enum :milky_way:
-
 * :cheese: Ссылки :cheese:
     * https://alembic.sqlalchemy.org/en/latest/autogenerate.html#autogenerate-detects
     * https://alembic.sqlalchemy.org/en/latest/tutorial.html#create-a-migration-script
