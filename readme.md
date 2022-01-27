@@ -23,10 +23,10 @@
     flask db upgrade
     ```
 
-* :carrot: В папке `templates` каждый из файлов начинается с одного из трёх слов: :carrot: <br>
-    base - это шаблоны <br>
-    hunk - это отдельные ломти (куски) html кода <br>
-    page - это готовые страницы, созданные на основе *base* и использующие отдельные *hunk* <br>
+* :carrot: В папке `templates` имена файлов начинаются с одного из трёх слов: :carrot: <br>
+    `base` - это шаблоны <br>
+    `hunk` - это отдельные ломти (куски) html кода <br>
+    `page` - это готовые страницы, созданные на основе *base* и использующие отдельные *hunk* <br>
 
 * :cow2: Мы используем `MySql Community Edition 8.0.28` :cow2:
     * https://www.mysql.com/products/community/
