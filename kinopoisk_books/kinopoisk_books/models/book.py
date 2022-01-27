@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-from kpb import db
+from kinopoisk_books import db
 
 
 class Book(db.Model):
     __tablename__ = 'book'
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.Unicode(200), nullable=False)
-    descryption = db.Column(db.UnicodeText)
-    big_descryption = db.Column(db.UnicodeText)
+    description = db.Column(db.UnicodeText)
+    big_description = db.Column(db.UnicodeText)
     author = db.Column(db.Unicode(200))
     release = db.Column(db.Date)
     release_year_only = db.Column(db.Boolean)  # известен лишь год издания

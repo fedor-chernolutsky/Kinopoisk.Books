@@ -1,6 +1,6 @@
 .idea/
 *.pyc
 __pycache__
-kpb.egg-info/
-# Please, don't add migrations/ in .gitignore after production begins
+# Remove migrations folder from gitignore since production will begin
 migrations/
+images/

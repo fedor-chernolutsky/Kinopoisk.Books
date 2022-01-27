@@ -1,0 +1,7 @@
+setup.py
+Kinopoisk.Books.egg-info/PKG-INFO
+Kinopoisk.Books.egg-info/SOURCES.txt
+Kinopoisk.Books.egg-info/dependency_links.txt
+Kinopoisk.Books.egg-info/top_level.txt
+kinopoisk_books/__init__.py
+kinopoisk_books/constantin.py

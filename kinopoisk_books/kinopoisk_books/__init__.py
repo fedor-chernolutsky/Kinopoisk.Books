@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from kpb import constantin
+from kinopoisk_books import constantin
 
 from flask import Flask
 from flask_migrate import Migrate
@@ -14,6 +14,6 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = constantin.SQLALCHEMY_TRACK_MODIF
 db = SQLAlchemy(app)
 migrate = Migrate(app, db, compare_type=True)
 
-from kpb.models.book import Book
+from kinopoisk_books.models.book import Book
 
-from kpb.views import main
+from kinopoisk_books.views import main

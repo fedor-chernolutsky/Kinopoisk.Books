@@ -5,13 +5,12 @@
 
 * :cookie: Запуск платформы :cookie:
     ```
-    cd kpb
-    set FLASK_APP=kpb
+    cd kinopoisk_books
+    set FLASK_APP=kinopoisk_books
     set FLASK_ENV=development
-    :: pip install -e .
     flask run
     ```
-  
+
 * :honey_pot: Добавить объект в базу данных :honey_pot:
     ```
     db.session.add(...)
@@ -23,7 +22,7 @@
     flask db migrate
     flask db upgrade
     ```
-  
+
 * :carrot: В папке `templates` каждый из файлов начинается с одного из трёх слов: :carrot: <br>
     base - это шаблоны <br>
     hunk - это отдельные ломти (куски) html кода <br>
