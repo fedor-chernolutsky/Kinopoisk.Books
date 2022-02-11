@@ -5,7 +5,6 @@
 
 * :cookie: Запуск платформы :cookie:
     ```
-    cd kinopoisk_books
     set FLASK_APP=kinopoisk_books
     set FLASK_ENV=development
     flask run
@@ -20,6 +19,7 @@
 * :cactus: Миграции базы данных :cactus:
     ```
     flask db migrate
+    :: Check Alembic migration script ::
     flask db upgrade
     ```
 
@@ -40,5 +40,7 @@
     * https://dev.mysql.com/downloads/file/?id=510039
 
 * :cheese: Ссылки :cheese:
-    * https://alembic.sqlalchemy.org/en/latest/autogenerate.html#autogenerate-detects
-    * https://alembic.sqlalchemy.org/en/latest/tutorial.html#create-a-migration-script
+    * Какие виды изменений в моделях базы данных `Alembic` распознаёт, а какие не понимает
+      https://alembic.sqlalchemy.org/en/latest/autogenerate.html#autogenerate-detects
+    * Редактирование скрипта миграции `Alembic`
+      https://alembic.sqlalchemy.org/en/latest/tutorial.html#create-a-migration-script
