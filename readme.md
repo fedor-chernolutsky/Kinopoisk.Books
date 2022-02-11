@@ -23,14 +23,21 @@
     flask db upgrade
     ```
 
+* :8ball: Ошибка `sqlalchemy.exc.OperationalError` :8ball:
+
+  Запустить `cmd` от имени администратора
+  ```
+  net start mysql80
+  ```
+
 * :carrot: В папке `templates` имена файлов начинаются с одного из трёх слов: :carrot: <br>
-    `base` - это шаблоны <br>
+    `temp` - это шаблоны <br>
     `hunk` - это отдельные ломти (куски) html кода <br>
-    `page` - это готовые страницы, созданные на основе *base* и использующие отдельные *hunk* <br>
+    `page` - это готовые страницы, созданные на основе *temp* и использующие отдельные *hunk* <br>
 
 * :cow2: Мы используем `MySql Community Edition 8.0.28` :cow2:
     * https://www.mysql.com/products/community/
-    * https://dev.mysql.com/downloads/installer/
+    * https://dev.mysql.com/downloads/file/?id=510039
 
 * :cheese: Ссылки :cheese:
     * https://alembic.sqlalchemy.org/en/latest/autogenerate.html#autogenerate-detects

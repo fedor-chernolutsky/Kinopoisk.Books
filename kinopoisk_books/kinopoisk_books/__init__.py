@@ -16,4 +16,4 @@ migrate = Migrate(app, db, compare_type=True)
 
 from kinopoisk_books.models.book import Book
 
-from kinopoisk_books.views import main
+from kinopoisk_books.views import index

@@ -1,5 +1,13 @@
 /* Основное CSS оформление */
-.body {
+
+body {
   background-color: #141414;
-  margin: 0px;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.display-none {
+  display: none;
 }

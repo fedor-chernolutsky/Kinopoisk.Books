@@ -18,6 +18,7 @@ class Book(db.Model):
     rating = db.Column(db.SmallInteger)  # todo: обдумать способ обновления рейтинга при оценивании книги
     original = db.Column(db.Unicode(200))
     coverart = db.Column(db.Unicode(200))
+    banner = db.Column(db.Unicode(200))
     publishinghouse = db.Column(db.Unicode(200))  # todo: использовать enum с именами издательств
 
     def __repr__(self):

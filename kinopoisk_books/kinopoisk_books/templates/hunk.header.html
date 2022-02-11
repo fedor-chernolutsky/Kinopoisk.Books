@@ -1,33 +1,49 @@
 <!-- Выдвигающаяся полосочка с разделами в самом верху -->
-<div class="header">
-  <hr class="shadowline" />
-  <a href="/">
-  <div class="chapter">
-    Книги
-  </div></a>
-  <div class="chapter">
-    Новинки
+<div class="flexbox header">
+  <div class="flexbox header__block-groups">
+
+    <a class="flexbox translucent header__block" href="/">
+      <img class="header__title-icon" src="/static/img/favicon.ico">
+      <span class="header__text header__title">КИНОПОИСК. КНИГИ</span>
+    </a>
+
+    <div class="flexbox">
+      <a class="flexbox translucent header__block header__index-block" href="/">
+        <span class="header__text">Мои книги</span>
+      </a>
+      <div class="flexbox translucent header__block header__fresh-block">
+        <span class="header__text">Новинки</span>
+      </div>
+      <div class="flexbox translucent header__block header__genres-block">
+        <span class="header__text">Разделы</span>
+      </div>
+      <div class="flexbox translucent header__block header__selections-block">
+        <span class="header__text">Подборки</span>
+      </div>
+      <div class="flexbox translucent header__block header__saved-block">
+        <span class="header__text">Буду читать</span>
+      </div>
+      <div class="flexbox translucent header__block header__media__block">
+        <span class="header__text">Медиа</span>
+      </div>
+      <div class="flexbox translucent header__block header__loop-block">
+        <i class="bi bi-search header__loop-icon"></i>
+      </div>
+
+      <div class="flexbox header__block header__search-bar-block display-none">
+        <input class="header__search-bar-input" type="text" placeholder="Книги">
+      </div>
+      <div class="flexbox translucent header__block header__close-block display-none">
+        <i class="bi bi-x-lg header__close-icon"></i>
+      </div>
+    </div>
+
+    <div class="flexbox">
+      <div class="flexbox translucent header__block header__profile-block">
+        <img class="header__profile-icon" src="/static/img/character-hare.png">
+      </div>
+    </div>
   </div>
-  <div class="chapter">
-    Главная
-  </div>
-  <div class="chapter">
-    Разделы
-  </div>
-  <div class="chapter">
-    Подборки
-  </div>
-  <div class="chapter">
-    Отложенное
-  </div>
-  <div class="chapter">
-    Медиа
-  </div>
-  <div class="chapter">
-    Поиск
-  </div>
-  <div class="chapter">
-    Профиль
-  </div>
-  <hr class="headerline" />
+
+  <hr class="header__underline" />
 </div>
