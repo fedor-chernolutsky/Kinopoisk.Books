@@ -14,8 +14,10 @@
     {% endblock %}
   </head>
   <body>
-    {% include 'hunk.header.html' %}
-    {% block body %}
-    {% endblock %}
+    <div class="flexbox">
+      {% include 'hunk.header.html' %}
+      {% block body %}
+      {% endblock %}
+    </div>
   </body>
 </html>

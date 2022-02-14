@@ -10,5 +10,5 @@ def index():
     #   будет предлагаться пользователю - то есть  выводиться на главной странице.
     # Пока все функции `filter`, `order_by` и тд выполнены в своём начальном
     #   виде, скорее для демонстрации
-    bannerbook = Book.query.filter(Book.banner != None).order_by(Book.release).first()
-    return render_template('page.index.html', bannerbook=bannerbook)
+    banner_book = Book.query.filter(Book.banner != None).order_by(Book.release).first()
+    return render_template('page.index.html', banner_book=banner_book)

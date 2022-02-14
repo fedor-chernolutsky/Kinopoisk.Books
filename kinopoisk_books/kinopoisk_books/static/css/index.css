@@ -1,1 +1,45 @@
 /* CSS оформление для страницы index */
+
+.banner {
+  display: flex;
+  align-items: flex-end;
+  font-family: 'Clear Sans Bold';
+  width: 100%;
+  height: 40.74em;
+  cursor: pointer;
+  /* background: url(...); see html */
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0em 0em 8.8em 8em rgba(0, 0, 0, 0.6) inset;
+}
+
+.banner__button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 13em;
+  margin: 0 0 2em 4em;
+}
+
+.banner__button {
+  width: 3em;
+  height: 3em;
+  outline: none;
+  border: 0em;
+  border-radius: 0.22em;
+  color: white;
+  background-color: #222222;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+}
+
+.banner__button:hover {
+  background-color: #333333;
+  -webkit-transform: scale(1.06);
+  -moz-transform: scale(1.06);
+  -o-transform: scale(1.06);
+}
+
+.banner__about-button {
+  width: 9em;
+}

@@ -1,8 +1,4 @@
 /* CSS оформление для верхней выдвигающейся полосочки */
-@font-face { /* TODO: Лицензия на шрифт */
-  font-family: 'Clear Sans Bold';
-  src: url(/static/fonts/clearsansbold.ttf);
-}
 
 a.flexbox { text-decoration: none; }
 
@@ -39,8 +35,8 @@ a.flexbox { text-decoration: none; }
 }
 
 .header__title {
-  font-size: 1.4em;
-  padding: 0 0 0 0.4em;
+  font-size: 1.6em;
+  padding: 0 0 0 0.2em;
 }
 
 .header__title-icon {
@@ -55,7 +51,7 @@ a.flexbox { text-decoration: none; }
 .header__search-bar-input {
   width: 42.32em;
   height: 2.4em;
-  border: 1px solid black;
+  border: 0em;
   border-radius: 0.2em;
   font-family: 'Clear Sans Bold';
   text-indent: 1em;

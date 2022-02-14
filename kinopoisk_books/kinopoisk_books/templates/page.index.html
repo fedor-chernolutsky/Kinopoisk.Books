@@ -2,7 +2,19 @@
 
 {% block head %}
 <link rel="stylesheet" href="/static/css/index.css">
+<script type="text/javascript" src="/static/js/index.js"></script>
 {% endblock %}
 
 {% block body %}
+<a class="flexbox banner" id="banner" href="#"
+  style="background-image:url('/static/images/{{banner_book.banner}}');">
+  <div class="flexbox banner__button-group" id="banner__button-group">
+    <button class="banner__button banner__about-button" type="button">
+      <i class="bi bi-info-circle"> О книге</i>
+    </button>
+    <button class="banner__button banner__save-button" type="button">
+      <i class="bi bi-bookmark-fill"></i>
+    </button>
+  </div>
+</a>
 {% endblock %}
