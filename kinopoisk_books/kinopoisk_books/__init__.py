@@ -6,7 +6,7 @@ from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates', static_folder="/")
 app.config['SECRET_KEY'] = constantin.SECRET_KEY
 app.config['SQLALCHEMY_DATABASE_URI'] = constantin.SQLALCHEMY_DATABASE_URI
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = constantin.SQLALCHEMY_TRACK_MODIFICATIONS

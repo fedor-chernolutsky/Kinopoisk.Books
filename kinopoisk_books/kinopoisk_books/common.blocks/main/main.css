@@ -2,7 +2,7 @@
 
 @font-face { /* TODO: Лицензия на шрифт */
   font-family: 'Clear Sans Bold';
-  src: url(/static/fonts/clearsansbold.ttf);
+  src: url(clearsansbold.ttf);
 }
 
 body {
