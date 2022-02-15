@@ -10,7 +10,7 @@
   /* background: url(...); see html */
   background-position: center;
   background-size: cover;
-  box-shadow: 0em 0em 8.8em 8em rgba(0, 0, 0, 0.6) inset;
+  box-shadow: 0em 3.6em 8.8em 8em rgba(0, 0, 0, 0.72) inset;
 }
 
 .banner__button-group {
